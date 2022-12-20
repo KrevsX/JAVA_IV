@@ -5,14 +5,7 @@ public class SmartPhone extends SmartDevice{
 
     public boolean camaraSmartPh;
 
-    public SmartPhone(boolean camaraSmartPh, String calidadCamSmartPh, boolean huellaSmartPh, double precioSmartPh, double pulgadasSmartPh, int almacenamientoSmartPh) {
-        this.camaraSmartPh = camaraSmartPh;
-        this.calidadCamSmartPh = calidadCamSmartPh;
-        this.huellaSmartPh = huellaSmartPh;
-        this.precioSmartPh = precioSmartPh;
-        this.pulgadasSmartPh = pulgadasSmartPh;
-        this.almacenamientoSmartPh = almacenamientoSmartPh;
-    }
+
 
     public String calidadCamSmartPh;
     public boolean huellaSmartPh;
@@ -21,6 +14,14 @@ public class SmartPhone extends SmartDevice{
     public int almacenamientoSmartPh;
 
 
+    public SmartPhone(boolean camaraSmartPh, String calidadCamSmartPh, boolean huellaSmartPh, double precioSmartPh, double pulgadasSmartPh, int almacenamientoSmartPh) {
+        this.camaraSmartPh = camaraSmartPh;
+        this.calidadCamSmartPh = calidadCamSmartPh;
+        this.huellaSmartPh = huellaSmartPh;
+        this.precioSmartPh = precioSmartPh;
+        this.pulgadasSmartPh = pulgadasSmartPh;
+        this.almacenamientoSmartPh = almacenamientoSmartPh;
+    }
 
     public SmartPhone(){
 
