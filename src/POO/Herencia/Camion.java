@@ -1,2 +1,10 @@
-package POO.Herencia;public class Camion {
+package POO.Herencia;
+
+import POO.Clases.Vehiculo;
+
+public class Camion extends Vehiculo {
+
+
+    double capacidadCarga;
+
 }
