@@ -25,6 +25,7 @@ public class CuartaEntrega {
             if(entrada == 1){
                 SDPhone();
                 break;
+
             }else if(entrada == 2){
                 SDWatch();
                 break;
