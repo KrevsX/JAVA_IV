@@ -9,6 +9,10 @@ import java.util.Scanner;
 public class CuartaEntrega {
     public static void main(String[] args) {
 
+        SmartPhone sPhone = new SmartPhone();
+        SmartWatch sWatch = new SmartWatch();
+
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("-------------------------------------");
         System.out.println("[1] Caracteriscas de SmartPhone" +
